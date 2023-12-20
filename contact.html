@@ -1,0 +1,183 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Contact Us</h1>
+    </section>
+    
+    
+<!------- Contact Us ------->
+
+    
+    <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45950.08275555177!2d-78.92576292713747!3d43.96184441376597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d51b9a6af8ae7f%3A0x2a373a19593716f5!2sOntario%20Tech%20University!5e0!3m2!1sen!2sca!4v1700778482486!5m2!1sen!2sca" width="720" height="445" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
+    
+    <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>Avenue of Champions</h5>
+                            <p> ACE </p>
+                            <p>Canada, Ontario, Oshawa</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+1 905-721-8668</h5>
+                            <p>Monday to Friday 8 Am to 10 Pm</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>robomaster@ontariotechu.net</h5>
+                            <h5>ri3d@ontariotechu.net</h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form method="post" action="contact-form-handler.php">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form> 
+                </div>
+            </div>
+    </section>
+
+    <!-------- faq ---------->
+
+    <section class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="accordion">
+              <div class="accordion-item">
+                <button id="accordion-button-1" aria-expanded="false">
+                  <span class="accordion-title">Cillum nostrud in laborum quis ullamco Lorem.</span>
+                  <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                    Ut tortor pretium viverra suspendisse potenti.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-2" aria-expanded="false">
+                  <span class="accordion-title">Ut et sit ullamco commodo eu duis.</span>
+                  <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                    Ut tortor pretium viverra suspendisse potenti.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-3" aria-expanded="false">
+                  <span class="accordion-title">Excepteur amet pariatur nisi sit culpa excepteur anim ex.</span>
+                  <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                    Ut tortor pretium viverra suspendisse potenti.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-4" aria-expanded="false">
+                  <span class="accordion-title">Veniam magna cupidatat duis dolor enim nisi.</span>
+                  <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                    Ut tortor pretium viverra suspendisse potenti.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-5" aria-expanded="false">
+                  <span class="accordion-title">Elit dolor mollit commodo eu id nostrud sit.</span>
+                  <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                    Ut tortor pretium viverra suspendisse potenti.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+<script src="/js/contact.js"></script>
+</body>
+</html>    
