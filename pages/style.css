@@ -713,15 +713,6 @@ h3 {
 }
 
 /*------- Staff Page ------------*/
-.staff-sub-header {
-    height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/getintouch.png);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-}
 
 .staff {
     width: 80%;
@@ -729,51 +720,58 @@ h3 {
     text-align: center;
     padding-top: 100px;
 }
+.intro-box {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 8px;
+  }
 
-.staff-card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: auto;
-    padding-top: 100px;
-    background: #e9eef0;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    height: 500px;
- 
-}
+  .intro-box h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+.executive-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
 
-.staff-card-body {
-    background: #e6f0f9;
-}
-
-.staff-col {
-    flex-basis: 18%;
-    background: #ffffff;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: .5s;
-}
-
-.staff-card:hover {
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-}
-
-.staff-card-body h1 {
-    font-size: 20px;
-    font-weight: 500;
-    height: 80%;
-}
-
-.staff-card-body h3 {
-    font-size: 14px;
+  .executive-card {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
     text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-}
+    transition: transform 0.3s ease;
+  }
 
-.card-img-top {
-    max-width: 100%;
-    border-radius: 10px;
-}
+  .executive-card:hover {
+    transform: scale(1.05);
+  }
+
+
+.member-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .member-card {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  .member-card:hover {
+    transform: scale(1.05);
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
