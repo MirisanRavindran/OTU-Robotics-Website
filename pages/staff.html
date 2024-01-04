@@ -2,16 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meet the Staff</title>
+    <title>Staff | OTU Robotics</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha384-5BGRTo6jR6Or4XTJ/zmtMpZm9z0Kr8rZIcZ8p3N3gXAWBsx5xIMmw2hR5BkUQszj" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha384-5BGRTo6jR6Or4XTJ/zmtMpZm9z0Kr8rZIcZ8p3N3gXAWBsx5xIMmw2hR5BkUQszj" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6975114518.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <section class="sub-header">
+    <section class="sub-header-staff">
         <nav>
             <a href="index.html"><img src="../images/logo.png"></a>
             <div class="nav-links" id="navLinks">
@@ -22,8 +27,10 @@
                     <li><a href="course.html">PROJECTS</a></li>
                     <li><a href="apply.html">APPLY</a></li>
                     <li><a href="staff.html">STAFF</a></li>
-                    <li><a href="donation.html">DONATION PAGE</a></li>
+                    <li><a href="donation.html">DONATE</a></li>
                     <li><a href="sponsor.html">SPONSOR US</a></li>
+                    <li><a href="photos.html">PHOTOS</a></li>
+                    <li><a href="news.html">NEWS</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
@@ -35,40 +42,46 @@
     <!------------------ STAFF PAGE content ------------------>
     <section class="staff">
 
-    <!--------Executive members--------->
+        <!--------Executive members--------->
         <div class="intro-box">
             <h2>Meet Our Executive Members</h2>
         </div>
-        <div class="executive-grid">
-            <div class="executive-card">
-                <img src="../images/nicholasVaras.webp" alt="Avatar" class="avatar">
-                <h4>Nicholas Varas</h4>
-                <p>Field of Study: Master's of Applied Science in Mechatronics Engineering</p>
-                <p>Role: Co-Founder, Ontario Tech Ri3D & RoboMaster. Director of Operations</p>
-            </div>
-            <div class="executive-card">
-                <img src="../images/kenneth.webp" alt="Avatar" class="avatar">
-                <h4>Kenneth Martinez</h4>
-                <p>Field of Study: Bachelor in Engineering (Honours) in Mechatronics Engineering.</p>
-                <p>Role: Team Lead - Robomaster and Ri3D</p>
-            </div>
-            <div class="executive-card">
-                <img src="../images/sam.webp" alt="Avatar" class="avatar">
-                <h4>Samantha Dougherty</h4>
-                <p>Field of Study: Bachelor in Engineering (Honours) in Mechatronics Engineering.</p>
-                <p>Role: Team Lead - Robomaster and Ri3D</p>
+        <div class="carousel-container">
+            <div class="slider">
+                <div class="executive-grid">
+                    <div class="executive-card">
+                        <img src="../images/nicholasVaras.webp" alt="Avatar" class="avatar">
+                        <h4>Nicholas Varas</h4>
+                        <div class="textbox">
+                        <p>Field of Study: Master's of Applied Science in Mechatronics Engineering</p>
+                        <p>Role: Co-Founder, Ontario Tech Ri3D & RoboMaster. Director of Operations</p>
+                        </div>
+                    </div>
+                    <div class="executive-card">
+                        <img src="../images/kenneth.webp" alt="Avatar" class="avatar">
+                        <h4>Kenneth Martinez</h4>
+                        <p>Field of Study: Bachelor in Engineering (Honours) in Mechatronics Engineering.</p>
+                        <p>Role: Team Lead - Robomaster and Ri3D</p>
+                    </div>
+                    <div class="executive-card">
+                        <img src="../images/sam.webp" alt="Avatar" class="avatar">
+                        <h4>Samantha Dougherty</h4>
+                        <p>Field of Study: Bachelor in Engineering (Honours) in Mechatronics Engineering.</p>
+                        <p>Role: Team Lead - Robomaster and Ri3D</p>
+                    </div>
+                </div>
             </div>
         </div>
 
 
-    <!--Ri3D team leads-->
+        <!--Ri3D team leads-->
         <div class="intro-box">
             <h2>Team Leads for Ri3D</h2>
         </div>
 
         <div class="member-grid">
             <div class="member-card">
-                <img src="ri3d_lead1.jpg" alt="Avatar" class="avatar">
+                <img src="../images/samira.png" alt="Avatar" class="avatar">
                 <h4>Ri3D Lead 1</h4>
                 <p>Role: Ri3D Team Lead</p>
             </div>
@@ -136,8 +149,8 @@
         </div>
         <div class="member-grid">
             <div class="member-card">
-                <img src="robomaster_lead1.jpg" alt="Avatar" class="avatar">
-                <h4>RoboMaster Lead 1</h4>
+                <img src="../images/arsal.webp" alt="Avatar" class="avatar">
+                <h4>Arsal</h4>
                 <p>Role: RoboMaster Team Lead</p>
             </div>
             <div class="member-card">
@@ -216,13 +229,47 @@
     <!----JavaScript for toggle menu---->
     <script>
         var navLinks = document.getElementById("navLinks");
+
         function showMenu() {
             navLinks.style.right = "0";
         }
+
         function hideMenu() {
             navLinks.style.right = "-200px";
         }
     </script>
 
+    <!--JavaScript for image slider-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          // Ri3D Slider Navigation
+          const ri3dSlider = document.querySelector('.ri3d-slider');
+          const ri3dArrowLeft = document.querySelector('.ri3d-slider .left');
+          const ri3dArrowRight = document.querySelector('.ri3d-slider .right');
+      
+          ri3dArrowLeft.addEventListener('click', function() {
+            ri3dSlider.scrollLeft -= 350;
+          });
+      
+          ri3dArrowRight.addEventListener('click', function() {
+            ri3dSlider.scrollLeft += 350;
+          });
+      
+          // RoboMaster Slider Navigation
+          const robomasterSlider = document.querySelector('.robomaster-slider');
+          const robomasterArrowLeft = document.querySelector('.robomaster-slider .left');
+          const robomasterArrowRight = document.querySelector('.robomaster-slider .right');
+      
+          robomasterArrowLeft.addEventListener('click', function() {
+            robomasterSlider.scrollLeft -= 350;
+          });
+      
+          robomasterArrowRight.addEventListener('click', function() {
+            robomasterSlider.scrollLeft += 350;
+          });
+        });
+      </script>
+
 </body>
+
 </html>

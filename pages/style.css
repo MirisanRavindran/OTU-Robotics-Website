@@ -713,7 +713,15 @@ h3 {
 }
 
 /*------- Staff Page ------------*/
-
+.sub-header-staff {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/Ri3D_34.JPG);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
 .staff {
     width: 80%;
     margin: auto;
@@ -735,7 +743,7 @@ h3 {
 .executive-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 20px; 
   }
 
   .executive-card {
@@ -744,12 +752,17 @@ h3 {
     border-radius: 8px;
     text-align: center;
     transition: transform 0.3s ease;
+    display: block;
+  }
+
+  .executive-card p {
+    margin-bottom: 0;
+    width: 100%;
   }
 
   .executive-card:hover {
     transform: scale(1.05);
   }
-
 
 .member-grid {
     display: grid;
@@ -775,3 +788,7 @@ h3 {
     border-radius: 50%;
     margin-bottom: 10px;
   }
+
+
+
+  
