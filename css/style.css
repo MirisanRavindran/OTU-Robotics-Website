@@ -651,5 +651,28 @@ h3{
 .news{
     margin-left: 20vw;
     margin-right: 20vw;
-    margin-top: 10vh;
+    margin-top: 15vh;
+}
+
+.news a{
+    transition: all 0.2s ease-in-out;
+}
+
+.news a{
+    transition: all 0.2s ease-in-out;
+}
+
+.news a:hover{
+    transform: scale(1.2);
+    opacity: .9;
+}
+
+.news a:hover{
+    transform: scale(1.2);
+    opacity: .9;
+}
+
+.image-text{
+    font-size: 5rem;
+    font-weight: 600;
 }
