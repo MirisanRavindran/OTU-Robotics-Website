@@ -645,3 +645,11 @@ h3{
     text-decoration: none;
     color: #777;
 }
+
+
+/*--------------- News Page --------------*/
+.news{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 10vh;
+}
