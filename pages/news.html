@@ -3,9 +3,11 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News | OTU Robotics</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<!-- Bootstrap Framework -->
+	<link rel="stylesheet" href="../cs/bootstrap.min.cs" />
 </head>
 
 <body>
@@ -30,6 +32,23 @@
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <h1>News</h1>
+    </section>
+
+    <section class="news">
+        <div id = "newsCarousel" class = "carousel slide" data-ride="carousel">
+            <div class = "carousel-inner">
+                <div class = "carousel-item active">
+                    <img src = "../images/news1.jpg" class = "d-block w-100" alt = "news1">
+                </div>
+                <div class = "carousel-item active">
+                    <img src = "../images/news1.jpg" class = "d-block w-100" alt = "news1">
+                </div>
+                <div class = "carousel-item active">
+                    <img src = "../images/news1.jpg" class = "d-block w-100" alt = "news1">
+                </div>
+            </div>
+        </div>
+
     </section>
 
 
@@ -65,6 +84,12 @@
             navLinks.style.right = "-200px";
         }
     </script>
+
+    <!---- jQuery Library ---->
+    <script src="../js/jquery.min.js"></script>
+    
+    <!---- Bootstrap Library ---->
+    <script src="../js/bootstrap.min.js"></script>    
 
 </body>
 
