@@ -648,7 +648,7 @@ h3{
 
 
 /*--------------- News Page --------------*/
-.news{
+.news-section{
     margin-left: 20vw;
     margin-right: 20vw;
     margin-top: 15vh;
@@ -675,4 +675,28 @@ h3{
 .image-text{
     font-size: 5rem;
     font-weight: 600;
+}
+
+.mt-7{
+    padding-top: 7rem;
+}
+
+.ml-23{
+    padding-left: 23rem;
+}
+
+.mb-10{
+    padding-bottom: 3rem;
+
+}
+
+.news-container-left{
+    padding-left: 8rem;
+}
+
+.separator{
+    width: 200px;
+    border-bottom: 2px solid;
+    border-color: #000000;
+    margin-bottom: 10px;
 }
