@@ -234,8 +234,21 @@ model-viewer {
     left: 0; /* Set left to 0 to align it to the left side */
     top: 0;
   }
-  
-  
+
+.Goals h1.text.heading {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Goals p.text.paragraph {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    text-align: center;
+}
   .progress-bar {
     display: block;
     width: 33%;
@@ -337,4 +350,155 @@ model-viewer {
 }
 
 
+.centered-skill-bars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh; /* You can adjust the height as needed */
+  }
 
+.skill-bars{
+    padding: 25px 10px;
+    width: 80%;
+    background: #fff;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    border-radius: 10px;
+  }
+  .skill-bars .bar{
+    margin: 20px 0;
+  }
+  .skill-bars .bar:first-child{
+    margin-top: 0px;
+  }
+  .skill-bars .bar .info{
+    margin-bottom: 5px;
+  }
+  .skill-bars .bar .info span18{
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+  }
+  .animate{ /* This is the animation class */
+  
+  }
+  @keyframes showText {
+    100%{
+      opacity: 1;
+    }
+  }
+  .skill-bars .bar .progress-line{
+    height: 10px;
+    width: 100%;
+    background: #f0f0f0;
+    position: relative;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+                0 1px rgba(255,255,255,0.8);
+                  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards; 
+  
+  }
+  @keyframes animate {
+    100%{
+      transform: scaleX(1);
+    }
+  }
+  
+  .bar .progress-line span18{
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: black;
+  }
+  /* SET THE ANIMATED CLASS TO GET IT TO ANIMATE */
+  .bar .progress-line span18.animated{
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+  }
+  .bar .progress-line.html span18{
+    width: 55%;
+  }
+  .bar .progress-line.css span18{
+    width: 36%;
+  }
+  .bar .progress-line.jquery span18{
+    width: 0%;
+  }
+  .bar .progress-line.python span18{
+    width: 12%;
+  }
+  .bar .progress-line.mysql span18{
+    width: 10%;
+  }
+  /* ADDED ANIMATED HERE SO ANIMATES ONLY WHEN IN THE VIEWPORT */
+  .progress-line span18.animated::before{
+    position: absolute;
+    content: "";
+    top: -10px;
+    right: 0;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+  }
+  .progress-line span18.animated::after{
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+    padding: 1px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+  }
+  @keyframes showText2 {
+    100%{
+      opacity: 1;
+    }
+  }
+  .progress-line.html span18::after{
+    content: "55%";
+  }
+  .progress-line.css span18::after{
+    content: "36%";
+  }
+  .progress-line.jquery span18::after{
+    content: "0%";
+  }
+  .progress-line.python span18::after{
+    content: "12%";
+  }
+  .progress-line.mysql span18::after{
+    content: "10%";
+  }
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fa{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart-o{
+    color: #f44336;
+}
