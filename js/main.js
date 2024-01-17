@@ -40,3 +40,12 @@ document.addEventListener("DOMContentLoaded", function () {
         ease: Power3.easeInOut
     });
 });
+
+function showMenu() {
+    document.getElementById('navLinks').style.right = '0';
+}
+
+function hideMenu() {
+    // Add your code to hide the menu here
+    document.getElementById('navLinks').style.right = '-250px';
+}
