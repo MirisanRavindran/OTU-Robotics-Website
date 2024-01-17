@@ -714,7 +714,7 @@ h3 {
 
 /*------- Staff Page ------------*/
 .sub-header-staff {
-    height: 50vh;
+    height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/Ri3D_34.JPG);
     background-position: center;
@@ -722,73 +722,193 @@ h3 {
     text-align: center;
     color: #fff;
 }
+
+.sub-header-staff h1 {
+    margin-top: 30vh;
+    font-size: 60px;
+}
+
+.sub-header-staff background-image {
+    -webkit-animation: kenburns-top 5s ease-out both;
+    animation: kenburns-top 5s ease-out both;
+}
+
 .staff {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
+
 .intro-box {
     background-color: #ffffff;
     padding: 20px;
     margin-bottom: 20px;
     margin-top: 50px;
     border-radius: 8px;
-  }
+}
 
-  .intro-box h2 {
+.intro-box h2 {
     margin-top: 0;
     margin-bottom: 20px;
-  }
+}
+
 .executive-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px; 
-  }
+    gap: 20px;
+}
 
-  .executive-card {
-    background-color: #f9f9f9;
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
-    transition: transform 0.3s ease;
-    display: block;
-  }
-
-  .executive-card p {
-    margin-bottom: 0;
-    width: 100%;
-  }
-
-  .executive-card:hover {
+.executive-card:hover {
     transform: scale(1.05);
-  }
+}
 
 .member-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-  }
+}
 
-  .member-card {
+.member-card {
     background-color: #f9f9f9;
     padding: 10px;
     border-radius: 8px;
     text-align: center;
     transition: transform 0.3s ease;
-  }
+    font-size: 0.9em;
+    color: #292828;
+}
 
-  .member-card:hover {
+.member-card:hover {
     transform: scale(1.05);
-  }
+}
 
-  .avatar {
+.avatar {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-bottom: 10px;
-  }
+}
+
+
+.executive-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.executive-card:hover {
+    transform: translateY(-5px);
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.staff-info {
+    margin-top: 15px;
+}
+
+.staff-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333333;
+}
+
+.field-study,
+.role {
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #666666;
+}
 
 
 
-  
+
+/*------- Sponsor Us Page ------------*/
+
+.sub-header-sponsor {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/Ri3D\ 2023\ \(54\).JPG);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header-sponsor h1 {
+    margin-top: 30vh;
+    font-size: 60px;
+}
+
+.why-sponsor {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+.why-sponsor a{
+    text-decoration: none;
+    color: #5d65d4;
+
+}
+
+.sponsor-section {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+
+}
+
+
+
+.text {
+    margin-top: 40px;
+    width: 90%;
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+    margin-bottom: auto;
+}
+
+.sponsor-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.sponsor-logo {
+    background-color: #fff;
+    border-radius: 2%;
+    text-align: center;
+    transition: transform 0.3s ease;
+
+   
+}
+.sponsor-logo img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+
+.sponsor-logo:hover {
+    transform: scale(1.05);
+}
