@@ -348,7 +348,7 @@ h3{
 }
 
 
-/*--------------- About Us Page --------------*/
+/*--------------- About Us --------------*/
 
 
 .sub-header{
@@ -376,9 +376,11 @@ h3{
 }
 .about-col h1{
     padding-top: 0;
+    font-size: 33px;
 }
 .about-col p{
     padding: 15px 0 25px;
+    color: #000000;
 }
 
 .hero-btn.red-btn{
@@ -644,17 +646,4 @@ h3{
 .footer-link{
     text-decoration: none;
     color: #777;
-}
-
-/* ANIMATIONS */
-.hidden {
-    opacity: 0;
-}
-
-.animate__animated.animate__FadeInDown {
-    --animate-duration: 2.5s;
-}
-
-.animate__animated.animate__bounceIn {
-    --animate-duration: 3s;
 }
