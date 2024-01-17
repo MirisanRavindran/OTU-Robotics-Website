@@ -888,9 +888,10 @@ hr {
 
 .sponsor-grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 20px;
     padding: 40px;
+
 }
 
 .sponsor-logo {
