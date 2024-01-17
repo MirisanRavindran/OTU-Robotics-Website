@@ -645,3 +645,16 @@ h3{
     text-decoration: none;
     color: #777;
 }
+
+/* ANIMATIONS */
+.hidden {
+    opacity: 0;
+}
+
+.animate__animated.animate__FadeInDown {
+    --animate-duration: 2.5s;
+}
+
+.animate__animated.animate__bounceIn {
+    --animate-duration: 3s;
+}
