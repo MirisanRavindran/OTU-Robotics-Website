@@ -87,11 +87,14 @@ nav .fa{
 }
 
 
+/*------- Sponsor Us Page ------------*/
+
 .sub-header-sponsor {
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/Ri3D\ 2023\ \(54\).JPG);
     background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     text-align: center;
     color: #fff;
@@ -125,6 +128,7 @@ nav .fa{
     margin-top: 5%;
 
 }
+
 
 .text {
     margin-top: 40px;
@@ -160,10 +164,10 @@ hr {
     border-radius: 8px;
 }
 
-
 .sponsor-logo:hover {
     transform: scale(1.05);
 }
+
 /* Media query for larger screens */
 @media screen and (min-width: 768px) {
     .sponsor-grid {
