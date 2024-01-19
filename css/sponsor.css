@@ -105,6 +105,13 @@ nav .fa{
     font-size: 60px;
 }
 
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
 .why-sponsor {
 
     width: 100%;
@@ -134,6 +141,8 @@ nav .fa{
     margin-top: 40px;
     width: 90%;
     text-align: center;
+    
+    
 }
 
 hr {
