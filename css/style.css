@@ -73,12 +73,13 @@ nav .fa{
     text-align: center;
 }
 .text-box h1{
-    font-size: 35px;
+    font-size: 45px;
 }
 .text-box p{
     margin: 20px 0 40px;
-    font-size: 14px;
+    font-size: 19px;
     color: #fff;
+    
 }
 .hero-btn {
     display: inline-block;
