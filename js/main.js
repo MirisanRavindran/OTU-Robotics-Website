@@ -49,3 +49,56 @@ function hideMenu() {
     // Add your code to hide the menu here
     document.getElementById('navLinks').style.right = '-250px';
 }
+
+
+const testimonials = [
+    {
+      name: "Mirisan Ravindran",
+      job: "Computer Vision Team Lead | Student at Ontario tech",
+      image: "https://static-exp1.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry",
+      testimonial:
+        "someone write something here"
+    },
+    {
+      name: "Kenneth idk his last name",
+      job: "Camper | Durham College",
+      image: "https://static-exp1.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry",
+      testimonial:
+        "someone write something"
+    },
+    {
+      name: "What's sup",
+      job: "idk | homeless",
+      image: "https://static-exp1.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry",
+      testimonial:
+        "anyone wanna to do this"
+    },
+    {
+      name: "Ronal",
+      job: "where | when",
+      image: "https://static-exp1.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry",
+      testimonial:
+        "idk"
+    }
+  ];
+  let f = 0;
+  let j = testimonials.length;
+  let testimonialContainer = document.getElementById("testimonial-container");
+  function next() {
+    f = (j + f + 1) % j;
+    displayTestimonial();
+  }
+  
+  function prev() {
+    f = (j + f - 1) % j;
+    displayTestimonial();
+  }
+  let displayTestimonial = () => {
+    testimonialContainer.innerHTML = `
+          <p>${testimonials[f].testimonial}</p>
+           <img src=${testimonials[f].image}></img>
+          <h3>${testimonials[f].name}</h3>
+          <h6>${testimonials[f].job}</h6>
+          `;
+  };
+  window.onload = displayTestimonial;
