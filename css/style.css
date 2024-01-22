@@ -73,7 +73,7 @@ nav .fa{
     text-align: center;
 }
 .text-box h1{
-    font-size: 55px;
+    font-size: 35px;
 }
 .text-box p{
     margin: 20px 0 40px;
@@ -348,7 +348,7 @@ h3{
 }
 
 
-/*--------------- About Us Page --------------*/
+/*--------------- About Us --------------*/
 
 
 .sub-header{
@@ -376,9 +376,11 @@ h3{
 }
 .about-col h1{
     padding-top: 0;
+    font-size: 33px;
 }
 .about-col p{
     padding: 15px 0 25px;
+    color: #000000;
 }
 
 .hero-btn.red-btn{
@@ -647,56 +649,6 @@ h3{
 }
 
 
-/*--------------- News Page --------------*/
-.news-section{
-    margin-left: 20vw;
-    margin-right: 20vw;
-    margin-top: 15vh;
-}
 
-.news a{
-    transition: all 0.2s ease-in-out;
-}
 
-.news a{
-    transition: all 0.2s ease-in-out;
-}
 
-.news a:hover{
-    transform: scale(1.2);
-    opacity: .9;
-}
-
-.news a:hover{
-    transform: scale(1.2);
-    opacity: .9;
-}
-
-.image-text{
-    font-size: 5rem;
-    font-weight: 600;
-}
-
-.mt-7{
-    padding-top: 7rem;
-}
-
-.ml-23{
-    padding-left: 23rem;
-}
-
-.mb-10{
-    padding-bottom: 3rem;
-
-}
-
-.news-container-left{
-    padding-left: 8rem;
-}
-
-.separator{
-    width: 200px;
-    border-bottom: 2px solid;
-    border-color: #000000;
-    margin-bottom: 10px;
-}
