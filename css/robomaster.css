@@ -428,10 +428,10 @@ model-viewer {
     width: 0%;
   }
   .bar .progress-line.python span18{
-    width: 12%;
+    width: 72%;
   }
   .bar .progress-line.mysql span18{
-    width: 10%;
+    width: 61%;
   }
   /* ADDED ANIMATED HERE SO ANIMATES ONLY WHEN IN THE VIEWPORT */
   .progress-line span18.animated::before{
@@ -476,10 +476,10 @@ model-viewer {
     content: "0%";
   }
   .progress-line.python span18::after{
-    content: "12%";
+    content: "72%";
   }
   .progress-line.mysql span18::after{
-    content: "10%";
+    content: "61%";
   }
 
 .footer{
