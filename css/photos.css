@@ -42,15 +42,16 @@
   display: block;
   max-width: 100%;
   padding:0.2rem;
-  transition: 0.2s;
+  transition: 0.2s ease-in;
   border-width: 2px;
   border-style: solid;
   border-radius: 15px;
   border-color:transparent;
+  -webkit-filter: grayscale(60%);
 }
 
 .grid-item img:hover{
-    transform: scale(0.95);
-    border-color: rgb(0, 0, 0);
+    transform: scale(1.02);
+    -webkit-filter: grayscale(0%);
 }
 

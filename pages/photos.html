@@ -16,28 +16,27 @@
 </head>
 
 <body>
-    <section class="sub-header-photos">
-        <nav>
-            <a href="index.html"><img src="../images/logo.png"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-close" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="robomaster.html">ROBOMASTER</a></li>
-                    <li><a href="ri3d.html">RI3D</a></li>
-                    <li><a href="apply.html">APPLY</a></li>
-                    <li><a href="staff.html">STAFF</a></li>
-                    <li><a href="donation.html">DONATE</a></li>
-                    <li><a href="sponsor.html">SPONSOR US</a></li>
-                    <li><a href="news.html">NEWS</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <h1>Photo Gallery</h1>
-    </section>
-
+  <section class="sub-header">
+    <nav>
+        <a class = "icon" href="index.html" uk-scrollspy="cls: uk-animation-slide-left"><img src="../images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-close" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html" uk-scrollspy="cls: uk-animation-slide-left">HOME</a></li>
+                <li><a href="robomaster.html" uk-scrollspy="cls: uk-animation-slide-left">ROBOMASTER</a></li>
+                <li><a href="ri3d.html" uk-scrollspy="cls: uk-animation-slide-left">RI3D</a></li>
+                <li><a href="apply.html" uk-scrollspy="cls: uk-animation-slide-left">APPLY</a></li>
+                <li><a href="staff.html" uk-scrollspy="cls: uk-animation-slide-left">STAFF</a></li>
+                <li><a href="donation.html" uk-scrollspy="cls: uk-animation-slide-left">DONATE</a></li>
+                <li><a href="sponsor.html" uk-scrollspy="cls: uk-animation-slide-left">SPONSOR US</a></li>
+                <li><a href="news.html" uk-scrollspy="cls: uk-animation-slide-left">NEWS</a></li>
+                <li><a href="contact.html" uk-scrollspy="cls: uk-animation-slide-left">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1 uk-scrollspy="cls: uk-animation-slide-bottom">Photo Gallery</h1>
+</section>
     <div class="container-fluid">
       
         <div class="grid" uk-scrollspy="cls: uk-animation-slide-bottom; target: .grid-item; delay: 300;" >
@@ -77,11 +76,6 @@
           <div class="grid-item">
             <a href="../images/news_3_raw.png" target="_blank">
                 <img class = "lozad" src="../images/news_3_raw.png" alt="photo">
-            </a>
-          </div>
-          <div class="grid-item">
-            <a href="../images/welcomeback.png" target="_blank">
-                <img class = "lozad" src="../images/welcomeback.png" alt="photo">
             </a>
           </div>
         </div>
