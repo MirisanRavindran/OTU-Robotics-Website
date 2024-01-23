@@ -4,13 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>News | OTU Robotics</title>
-    <link rel="stylesheet" href="../css/news.css">
-    <link rel="stylesheet" href="../css/style.css">
-     	<!-- Bootstrap Framework -->
+    <!-- Bootstrap Framework -->
+    <link rel="stylesheet" href="../css/uikit.min.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="../css/news.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -45,7 +46,7 @@
 
 <section class="news">
     <div class="news-section">
-        <div id="news-slides" class="carousel slide">
+        <div id="news-slides" class="carousel slide" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">
             <ol class="carousel-indicators">
                 <li data-target="#news-slides" data-slide-to="0" class="active"></li>
                 <li data-target="#news-slides" data-slide-to="1"></li>
@@ -63,7 +64,7 @@
                       </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="../images/news_2.png  " class="d-block w-100" alt="news2">
+                    <img src="../images/news_2.png" class="d-block w-100" alt="news2">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class = "image-text">RI3D 2024 Kickoff</h5>
                         <h6 class = "image-bottom-text">  During the 2024 season RI3D, we hosted one of the many
@@ -94,9 +95,9 @@
     </div>
     <div class = "news description container-md">
         <div class = "mt-7 ml-23 mb-3">
-            <h5 class = "display-4" style = "font-weight: 400; margin-top:3rem"> Recent News </h5>
+            <h5 class = "display-4" style = "font-weight: 400; margin-top:3rem" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true"> Recent News </h5>
         </div>
-        <div class = "row news-container-left">
+        <div class = "row news-container-left" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
             <div class ="col-sm">
                 <img src="../images/news_1_raw.png" style="width:100%" alt="...">
             </div>
@@ -113,7 +114,7 @@
             </div>
         </div>
 
-        <div class = "row news-container-left">
+        <div class = "row news-container-left" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
             <div class ="col-sm">
                 <h5 class = "news-title">RI3D 2024 Kickoff</h5>
                 <div class = "separator"></div>
@@ -131,7 +132,7 @@
             </div>
         </div>
 
-        <div class = "row news-container-left">
+        <div class = "row news-container-left" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
             <div class ="col-sm">
                 <img src="../images/news_3_raw.png"  style="width:100%" alt="...">
             </div>
@@ -189,12 +190,15 @@
             navLinks.style.right = "-200px";
         }
     </script>
-
+    
     <!---- jQuery Library ---->
     <script src="../js/jquery.min.js"></script>
-    
+
     <!---- Bootstrap Library ---->
     <script src="../js/bootstrap.min.js"></script>    
+
+    <!---- UiKitmin Library ---->
+    <script src="../js/uikit.min.js"></script>    
 
 </body>
 

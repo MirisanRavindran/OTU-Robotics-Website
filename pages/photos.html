@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photos | OTU Robotics</title>
           	<!-- Bootstrap Framework -->
-	<link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/uikit.min.css">
+	  <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/photos.css" />
     <link rel="stylesheet" href="../css/style.css" />
@@ -37,11 +38,8 @@
 
     <div class="container-fluid">
       
-        <div class="grid">
+        <div class="grid" uk-scrollspy="cls: uk-animation-slide-bottom; target: .grid-item; delay: 300;" >
           <div class="grid-sizer"></div>
-          <div class="grid-item">
-
-          </div>
           <div class="grid-item">
           </div>
           <div class="grid-item">
@@ -117,6 +115,12 @@
             navLinks.style.right = "-200px";
         }
     </script>
+
+    <!---- Bootstrap Library ---->
+    <script src="../js/bootstrap.min.js"></script>    
+
+    <!---- UiKitmin Library ---->
+    <script src="../js/uikit.min.js"></script>    
 
 </body>
 
