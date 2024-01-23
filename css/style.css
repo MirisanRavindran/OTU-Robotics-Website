@@ -754,7 +754,8 @@ button#next {
     font-size: 1.5em; /* Adjusted font size */
     height: 1.5em; /* Adjusted height */
     width: 1.5em; /* Adjusted width */
-    left: 205px;
+    left: 305px;
+    bottom: -210px;
 }
 
 
@@ -763,7 +764,8 @@ button#prev {
     font-size: 1.5em; /* Adjusted font size */
     height: 1.5em; /* Adjusted height */
     width: 1.5em; /* Adjusted width */
-    right: 205px;
+    right: 305px;
+    bottom: -210px;
 }
 
 @media screen and (max-width: 650px) {

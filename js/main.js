@@ -53,11 +53,11 @@ function hideMenu() {
 
 const testimonials = [
     {
-      name: "Mirisan Ravindran",
-      job: "Computer Vision Team Lead | Student at Ontario tech",
+      name: "Kenneth Martinez",
+      job: "Team Lead | Mexican Student at Ontario tech",
       image: "https://static-exp1.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry",
       testimonial:
-        "someone write something here"
+        "Embarking on my journey with Ontario Tech Robotics in the fall of 2022, I started as the Jr. Design Lead. This role expanded my mechanical design skills beyond classroom teachings, allowing me to apply them practically in creating prototypes for our robots. The experience was pivotal for my growth. In 2023, I was honored to step into the role of Robomaster Team Leader, marking a transformative chapter. Managing the team not only taught me effective leadership but also provided insights into collaborative goal-setting within the club. Recognizing that the group's success hinged on knowledge transfer, I dedicated myself to learning and sharing with my teammates. Leading by example, I worked hard and collaboratively with my peers every day. This journey has been a positive one, filled with growth and camaraderie. I'm proud to contribute to a team fostering not just robotics but also a culture of excellence. I am excited about the future of Ontario Tech Robotics, and I hope my experience inspires more students to join, offering a platform for both technical and leadership growth. If you share a passion for robotics and a desire to excel, this is the ideal community for you."
     },
     {
       name: "Kenneth idk his last name",
