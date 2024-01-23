@@ -32,6 +32,26 @@ nav img{
     padding: 8px 12px;
     position: relative;
 }
+
+.icon{
+    transition: 0.2s ease-in-out;
+    filter:brightness(75%);
+}
+
+.icon:hover{
+    filter:brightness(90%);
+}
+
+.icons a i{
+    transition:0.3s ease-in-out;
+}
+
+.icons a i:hover{
+    transform:scale(1.3);
+    color:black;
+}
+
+
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
