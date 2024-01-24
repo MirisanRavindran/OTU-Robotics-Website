@@ -772,6 +772,21 @@ button#prev {
 	.wrapper {
 		font-size: 16px;
 	}
+    button#prev {
+        left: -1em;
+        font-size: 1.5em; /* Adjusted font size */
+        height: 1.5em; /* Adjusted height */
+        width: 1.5em; /* Adjusted width */
+        right: 305px;
+        bottom: -210px;
+    }
+    button#next {
+        font-size: 1.5em; /* Adjusted font size */
+        height: 1.5em; /* Adjusted height */
+        width: 1.5em; /* Adjusted width */
+        left: 9em;
+        bottom: -210px;
+    }
 }
 
 .footer-link{
