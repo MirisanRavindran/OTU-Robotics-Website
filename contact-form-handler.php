@@ -5,7 +5,7 @@
     $message = $_POST['message'];
 
 
-    $email_from = 'info@easytutorialspro.com';
+    $email_from = 'mirisan.ravindran@ontarioechu.net';
 
     $email_subject = "New Form Submission";
     
