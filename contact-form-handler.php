@@ -5,7 +5,7 @@
     $message = $_POST['message'];
 
 
-    $email_from = 'mirisan.ravindran@ontarioechu.net';
+    $email_from = 'rm@ot-robotics.com';
 
     $email_subject = "New Form Submission";
     
