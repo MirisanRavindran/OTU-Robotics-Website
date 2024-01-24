@@ -37,6 +37,15 @@ nav img{
     text-decoration: none;
     font-size: 13px;
 }
+
+.logo{
+    transition: 0.2s ease-in-out;
+    filter:brightness(75%);
+}
+
+.logo:hover{
+    filter:brightness(90%);
+}
 .nav-links ul li::after{
     content: '';
     width: 0%;

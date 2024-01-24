@@ -37,6 +37,15 @@ nav img {
     position: relative;
 }
 
+.logo{
+  transition: 0.2s ease-in-out;
+  filter:brightness(75%);
+}
+
+.logo:hover{
+  filter:brightness(90%);
+}
+
 .nav-links ul li a {
     color: #fff;
     text-decoration: none;
