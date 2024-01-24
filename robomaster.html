@@ -2,7 +2,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | OTU Robotics</title>
-    <link rel="stylesheet" href="../css/ri3d.css">
+    <link rel="stylesheet" href="css/robomaster.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -14,13 +14,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <meta name="description" content="&lt;model-viewer&gt; template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="../images/OTRobotics.ico">
+    <link rel="icon" type="image/x-icon" href="images/OTRobotics.ico">
 
     <!-- gsap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
 
-    <script src="../js/animations.js"></script>
+    <script src="js/animations.js"></script>
     <script src="/js/main.js"></script>
 </head>
 
@@ -28,12 +28,12 @@
     <section class="header">
 
         <nav>
-            <a href="../index.html" class="logo"><img src="../images/logo.png"></a>
+            <a href="index.html" class="logo"><img src="images/logo.png"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-close" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="../index.html">HOME</a></li>
-                    <li><a href="robomaster.html">ROBOMASTER</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="ri3d.html">RI3D</a></li>
                     <li><a href="apply.html">APPLY</a></li>
                     <li><a href="staff.html">STAFF</a></li>
                     <li><a href="donation.html">DONATE</a></li>
@@ -47,13 +47,13 @@
         </nav>
 
         <div class="text-box">
-            <h1 class="text heading">RI3D</h1>
-            <p class="text paragraph">Build in three days</p>
+            <h1 class="text heading">RoboMaster</h1>
+            <p class="text paragraph">Unleashing Technological Ingenuity on the Global Stage</p>
         </div>
              
 
         <video autoplay muted loop id="background-video">
-            <source src="../media/RoboMasterBackground.mp4" type="video/mp4">
+            <source src="media/RoboMasterBackground.mp4" type="video/mp4">
         </video>
 
     </section>
@@ -62,24 +62,27 @@
     <section class="about-us">
         <div class="row">
             <div class="about-col">
-                <h1>Rapid Robot Innovation - Ri3D</h1>
-                <p>Discover the essence of <strong>Rapid Robot Innovation (Ri3D)</strong>, an exceptional project located at Ontario Tech's Automotive Centre of Excellence. Every year, our dedicated team of over 100 students undertakes the challenge of designing, building, and programming robots within a tight three-day timeframe, all in response to the annual challenges set forth by the <strong>FIRST Robotics Competition</strong>.</p>
-                <p>At <strong>Ri3D</strong>, <strong>innovation</strong> is not just a goal; it's a process. We strive to provide creative and forward-thinking solutions to contemporary engineering challenges faced by society. Through live-streamed build seasons on YouTube and Twitch, we share our insights and diverse design concepts with the global robotics community. Additionally, our commitment extends to mentorship programs for local high school robotics teams, fostering collaboration and knowledge-sharing. Join us in the pursuit of excellence, where <strong>Ri3D</strong> exemplifies the power of rapid innovation and the spirit of engineering creativity.</p>
-                <a href="apply.html" class="hero-btn red-btn">Join Now</a>
+                <h1>RoboMaster University Series: Shaping Future Innovators</h1>
+                <p>Dive into the dynamic world of RoboMaster University Series (RMU), a pioneering platform founded by DJI that transcends conventional boundaries in the realm of robotics and academic exchange. Established in 2013, RMU is not just a competition; it's a transformative journey for global technology enthusiasts. Our mission is clear - to empower young learners to reshape their world with the formidable power of engineering and technology.
+
+                    At RMU, we challenge participants to move beyond textbooks, encouraging the formation of robotics teams that delve into the creation of a diverse fleet of robots. Engaging in intense team battles, students gain invaluable industry experience and cultivate strategic planning skills. With over 400 colleges and universities from around the globe participating annually, RMU has become a hub for fostering the talents of over 50,000 young learners.
+                    
+                    More than a competition, RoboMaster is a testament to the endless possibilities of technological innovation. Join us in this exciting journey where book smarts meet practical skills, creating the most advanced and intelligent robots that showcase the potential of the future. RoboMaster isn't just a challenge; it's a celebration of creativity, collaboration, and the pursuit of engineering excellence.</p>
+                <a href="apply.html"
+                    class="hero-btn red-btn">Join Now</a>
             </div>
             <div class="about-col">
-                <img src="../images/about.jpg">
+                <img src="images/moment_6.jpeg">
             </div>
         </div>
     </section>
-    
 
 
     <section class="robot-view centered-model">
         <div class="centered-text">
-            <h2>Ri3D challenge 1</h2>
+            <h2>Prototype 1</h2>
         </div>
-        <model-viewer src="/media/3dpea (1).glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
+        <model-viewer src="media/jarvis.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
             <div class="progress-bar hide" slot="progress-bar">
                 <div class="update-bar"></div>
             </div>
@@ -87,7 +90,7 @@
                 View in your space
             </button>
             <div id="ar-prompt">
-                <img src="/media/ar_hand_prompt.png">
+                <img src="media/ar_hand_prompt.png">
             </div>
         </model-viewer> 
     </section>
@@ -98,19 +101,23 @@
         <div class="row">
             <div class="course-col hidden animate__animated animate__delay-750ms">
                 <h3>Mechanical Team</h3>
-                <p>The Mechanical Team in Ri3D is the backbone, turning design concepts into tangible reality. They are responsible for crafting the physical components, ensuring precision and functionality in the limited three-day timeframe.</p>
+                <p>Crafting the physical essence of our robots, the Mechanical Team designs with precision and innovation, ensuring robust structures and intricate mechanisms.</p>
             </div>
             <div class="course-col hidden animate__animated animate__delay-750ms">
                 <h3>Programming Team</h3>
-                <p>The Programming Team in Ri3D injects intelligence into our robots by crafting efficient and effective code. Their expertise ensures seamless communication and precise execution during the intense three-day build season.</p>
+                <p>Breathing life into our robots, the Programming Team employs expert coding to enhance agility and intelligence, bringing seamless execution of strategies during competitions.</p>
+            </div>
+            <div class="course-col hidden animate__animated animate__delay-750ms">
+                <h3>Computer Vision Team</h3>
+                <p>Pioneering perception capabilities, the Computer Vision Team utilizes cutting-edge technology, including motion tracking and machine learning, to track opponents' armor plates with unparalleled accuracy.</p>
             </div>
             <div class="course-col hidden animate__animated animate__delay-750ms">
                 <h3>Electrical Team</h3>
-                <p>Powering the Ri3D projects, the Electrical Team meticulously handles the design and implementation of electrical systems. From wiring to power distribution, they ensure the robotic creations operate at their best.</p>
+                <p>The power behind our robots, the Electrical Team ensures optimal performance by seamlessly integrating electronics, handling everything from wiring to power distribution.</p>
             </div>
             <div class="course-col hidden animate__animated animate__delay-750ms">
-                <h3>Design Team</h3>
-                <p>LThe Design Team in Ri3D is the creative force behind the project, shaping the visual and functional aspects of our robots with innovative concepts and thoughtful engineering.</p>
+                <h3>Business Team</h3>
+                <p>Driving project success behind the scenes, the Business Team manages operations, leads fundraising efforts, and fosters crucial connections with the community.</p>
             </div>
         </div>
     </section>
@@ -126,7 +133,7 @@
         <div class="skill-bars">
           <div class="bar">
             <div class="info">
-              <span18>Come up with a Design</span18>
+              <span18>Embedded Mastery</span18>
             </div>
             <div class="progress-line html">
               <span18></span18>
@@ -134,7 +141,7 @@
           </div>
           <div class="bar">
             <div class="info">
-              <span18>Building the robot</span18>
+              <span18>Chassis Completion</span18>
             </div>
             <div class="progress-line css">
               <span18></span18>
@@ -142,7 +149,7 @@
           </div>
           <div class="bar">
             <div class="info">
-              <span18>Programming</span18>
+              <span18>Vision Precision</span18>
             </div>
             <div class="progress-line jquery">
               <span18></span18>
@@ -150,9 +157,17 @@
           </div>
           <div class="bar">
             <div class="info">
-              <span18>Finishing Goal</span18>
+              <span18>Mechanical-Electrical Integration</span18>
             </div>
             <div class="progress-line python">
+              <span18></span18>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span18>Optimizing Power Management</span18>
+            </div>
+            <div class="progress-line mysql">
               <span18></span18>
             </div>
           </div>
@@ -161,7 +176,7 @@
     </section>
 
     <section class="footer">
-        <h4>RI3D</h4>
+        <h4>RoboMaster</h4>
         <p>Ontario Tech Robotics</p>
         <div class="icons">
             <a href="https://www.facebook.com/otrobomaster" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -171,5 +186,5 @@
         </div>
     </section>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
-    <script src="/js/robomaster.js"></script>
+    <script src="js/robomaster.js"></script>
 </body>
