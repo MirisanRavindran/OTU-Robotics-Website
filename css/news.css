@@ -123,6 +123,33 @@ img{
         margin-left: 5vw;
         margin-right: 5vw;
     }
+    .image-bottom-text{
+        display: flex !important;
+    }
+}
+.display-4{
+    padding-left:21%;
+    font-weight:bold !important;
+}
+
+@media all and (max-width: 765px){
+    .card-body{
+        display:block !important;
+    }
+    .display-4{
+        text-align: center;
+    }
+    .mt-7{
+        position:relative;
+        padding-right:28%;
+    }
+}
+
+
+
+.card-body{
+    display:none;
+    background-color: white;
 }
 
 
