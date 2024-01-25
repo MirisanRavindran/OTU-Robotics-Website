@@ -119,7 +119,7 @@ nav .fa{
     .nav-links
     {
         position: fixed;
-        background: #f44336;
+        background: #2b5a8d;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -215,7 +215,7 @@ p{
   
 .course-col{
     flex-basis: 18%;
-    background: #fff3f3;
+    background: #bdd1e6;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
