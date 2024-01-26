@@ -211,6 +211,13 @@ nav .fa{
     }
 }
 
+@media only screen and (max-width: 512px) {
+    .member-grid{
+        margin:0;
+        padding:0;
+    }
+}
+
 .executive-card:hover,
 .member-card:hover {
     transform: scale(1.05);
