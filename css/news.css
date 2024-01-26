@@ -105,8 +105,9 @@ img{
         font-weight: 300;
     }
     .display-4{
-        font-size: 2rem !important;
-        font-weight: 300 !important;
+        /* font-size: 2rem !important;
+        font-weight: 300 !important; */
+        display:none;
     }
 }
 
