@@ -146,6 +146,30 @@ img{
     }
 }
 
+.carousel-control-prev-icon{
+    height:2rem;
+    width:2rem;
+}
+
+.carousel-control-next-icon{
+    height:2rem;
+    width:2rem;
+}
+
+
+@media all and (max-width: 569px){
+    .carousel-control-next-icon{
+        margin-bottom:8rem;
+    }
+    .carousel-control-prev-icon{
+        margin-bottom:8rem;
+    }
+    .carousel-indicators{
+        display:none;
+    }
+
+}
+
 
 
 .card-body{

@@ -132,6 +132,16 @@ nav .fa {
 }
 
 
+.disabled{
+  background-color: grey !important;
+  cursor: not-allowed;
+  text-decoration: none !important;
+}
+
+.disabled > a{
+  pointer-events: none;
+}
+
 
 .container {
     width: 80%;

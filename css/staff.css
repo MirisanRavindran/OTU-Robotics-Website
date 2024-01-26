@@ -127,6 +127,7 @@ nav .fa{
         font-size: 1.5rem;
     }
 }
+
 /* Adjustments for larger screens */
 
 @media only screen and (min-width: 1024px) {
@@ -200,6 +201,14 @@ nav .fa{
     background-color: #d6e2e7;
     border: 1px solid #e0e0e0;
     padding: 20px;
+}
+
+/* Adjustments for medium screens */
+@media only screen and (max-width: 512px) {
+    .executive-grid{
+        margin:0;
+        padding:0;
+    }
 }
 
 .executive-card:hover,
