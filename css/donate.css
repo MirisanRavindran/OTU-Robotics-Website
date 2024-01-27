@@ -63,6 +63,14 @@ nav img {
     transition: .5s;
 }
 
+p{
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
 .nav-links ul li:hover::after {
     width: 100%;
 }
@@ -115,10 +123,11 @@ nav .fa {
 }
 
 
+
 .sub-header-donate {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/bg_don4.JPG);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/bg_don4.webp);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;

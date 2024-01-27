@@ -74,6 +74,14 @@ nav .fa{
     display: none;
 }
 
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
 @media(max-width: 700px)
 {
    .nav-links ul li
@@ -143,7 +151,7 @@ nav .fa{
 .sub-header-staff {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/Ri3D_34.JPG);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/Ri3D_34.webp);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;

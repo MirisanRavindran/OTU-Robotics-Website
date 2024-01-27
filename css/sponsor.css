@@ -102,7 +102,7 @@ nav .fa{
 .sub-header-sponsor {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/bg_don5.JPG);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/bg_don5.webp);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
