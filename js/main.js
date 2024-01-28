@@ -62,7 +62,7 @@ const testimonials = [
     {
       name: "Samantha Dougherty",
       job: "Team Lead - Robomaster and Ri3D",
-      image: "../images/sam.webp",
+      image: "../images/Sam.webp",
       testimonial:
         "One reason why I chose Ontario Tech University was because I heard they had a Robot In Three Days team; which was amazing since I am a FIRST Alumni. I have been on the team for three years now. In my first year I started as a general member specializing in the electrical subteam. In my 2nd year I was Jr. Team Lead and tried to be a jack of all trades for Ontario Tech Robotics to learn as much as I could. I eventually have now worked my way up to Team Lead. It truly is a really amazing experience, being able to apply material we learn in the classroom to hands-on work. In the fall I started really learning and focusing on RoboMaster and the mechanical and electrical side of things. One benefit to being Team Lead is not only gaining many valuable skills, but also being able to pass them down to younger students and seeing them fall in love with robotics as much as I have."
     },
