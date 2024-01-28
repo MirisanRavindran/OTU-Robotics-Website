@@ -60,6 +60,13 @@ const testimonials = [
         "Embarking on my journey with Ontario Tech Robotics in the fall of 2022, I started as the Jr. Design Lead. This role expanded my mechanical design skills beyond classroom teachings, allowing me to apply them practically in creating prototypes for our robots. The experience was pivotal for my growth. In 2023, I was honored to step into the role of Robomaster Team Leader, marking a transformative chapter. Managing the team not only taught me effective leadership but also provided insights into collaborative goal-setting within the club. Recognizing that the group's success hinged on knowledge transfer, I dedicated myself to learning and sharing with my teammates. Leading by example, I worked hard and collaboratively with my peers every day. This journey has been a positive one, filled with growth and camaraderie. I'm proud to contribute to a team fostering not just robotics but also a culture of excellence. I am excited about the future of Ontario Tech Robotics, and I hope my experience inspires more students to join, offering a platform for both technical and leadership growth. If you share a passion for robotics and a desire to excel, this is the ideal community for you."
     },
     {
+      name: "Samantha Dougherty",
+      job: "Team Lead - Robomaster and Ri3D",
+      image: "../images/Sam.webp",
+      testimonial:
+        "One reason why I chose Ontario Tech University was because I heard they had a Robot In Three Days team; which was amazing since I am a FIRST Alumni. I have been on the team for three years now. In my first year I started as a general member specializing in the electrical subteam. In my 2nd year I was Jr. Team Lead and tried to be a jack of all trades for Ontario Tech Robotics to learn as much as I could. I eventually have now worked my way up to Team Lead. It truly is a really amazing experience, being able to apply material we learn in the classroom to hands-on work. In the fall I started really learning and focusing on RoboMaster and the mechanical and electrical side of things. One benefit to being Team Lead is not only gaining many valuable skills, but also being able to pass them down to younger students and seeing them fall in love with robotics as much as I have."
+    },
+    {
       name: "Mirisan Ravindran",
       job: "Senior Programming Lead - RMUL | Student at Ontario tech",
       image: "https://static-exp1.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry",
