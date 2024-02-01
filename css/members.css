@@ -116,13 +116,11 @@ p{
     }
 }
 
-/*------- Staff Page ------------*/
-/*------- Staff Page ------------*/
-
+/*------- Member Page ------------*/
 
 /* Adjustments for smaller screens */
 @media only screen and (max-width: 320px) {
-    .sub-header-staff h1 {
+    .sub-header-member h1 {
         font-size: 1.2rem; 
     }
 
@@ -148,8 +146,8 @@ p{
 
 }
 
-/* Staff Section Styles */
-.sub-header-staff {
+/* Member Section Styles */
+.sub-header-member {
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/Ri3DTeam.webp);
@@ -160,7 +158,7 @@ p{
     color: #fff;
 }
 
-.sub-header-staff h1 {
+.sub-header-member h1 {
     margin-top: 30vh;
     font-size: 60px;
 }
@@ -239,11 +237,11 @@ p{
     margin-bottom: 15px;
 }
 
-.staff-info {
+.member-info {
     margin-top: 15px;
 }
 
-.staff-name {
+.member-name {
     font-size: 1.2em;
     font-weight: bold;
     color: #333333;
